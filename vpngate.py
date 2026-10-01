@@ -460,8 +460,8 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "saas.sin.fan:443,cdn.204910.best:443,bbs.alipansou.com:443,p.etime.vip:443,bbs.alipansou.com:443,eii.at:443,"
-        "Proxy-HK.SenflareLink.Kdns.fr:443,Proxy-JP.SenflareLink.Kdns.fr:443,Proxy-SG.SenflareLink.Kdns.fr:443,Proxy-IN.SenflareLink.Kdns.fr:443",
+        "bbs.alipansou.com:443,cf-cname.xingpingcn.top:443,auto.dolby.dpdns.org:443,vps.cheng2001.top:443,p.etime.vip:443,saas.sin.fan:443,cf.itv888.cn:443,img.css.sd:443,"
+        "cdn.204910.best:443,eii.at:443,224322.xyz:443,saas.072159.xyz:443,cf.nyanya.moe:443,www.galgamex.net:443",
     ).split(",")
     if h.strip()
 ]
